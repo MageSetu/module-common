@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright (c) 2025 MageSetu. All rights reserved.
+ *
+ * @package    MageSetu_Common
+ * @author     MageSetu
+ * @copyright  Copyright (c) 2025 MageSetu
+ * @license    https://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
+ * @link       https://github.com/MageSetu/Common
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="MageSetu_Common::main"
+            title="MageSetu"
+            translate="title"
+            module="MageSetu_Common"
+            sortOrder="20"
+            resource="MageSetu_Common::manage"/>
+    </menu>
+</config>

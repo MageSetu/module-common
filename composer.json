@@ -1,0 +1,20 @@
+{
+    "name": "magesetu/module-common",
+    "description": "Common base module for MageSetu Magento modules",
+    "type": "magento2-module",
+    "license": "Apache-2.0",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=8.3",
+        "magento/framework": ">=2.4.8"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageSetu\\Common\\": ""
+        }
+    }
+}
+
