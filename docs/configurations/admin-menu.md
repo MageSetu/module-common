@@ -21,7 +21,7 @@ When adding backend dashboards or grids in other vendor extensions, target `Mage
 
 ```xml
 <?xml version="1.0"?>
-<config xmlns:xsi="[http://www.w3.org/2001/XMLSchema-instance](http://www.w3.org/2001/XMLSchema-instance)" xsi:noNamespaceSchemaLocation="urn:magento:framework:Menu/etc/menu.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Menu/etc/menu.xsd">
     <menu>
         <add id="MageSetu_Blog::post"
              title="Manage Posts"
